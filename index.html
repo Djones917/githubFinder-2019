@@ -17,8 +17,19 @@
     </nav> <!-- End of navbar -->
 
     <div class="container searchContainer">
-        
+       <div class="search card card-body">
+          <h1>Search Github Users</h1>
+          <p class="lead">Enter a username to fetch a user profile and repos</p>
+          <!-- Remeber class form-control is a bootstrap class -->
+          <input type="text" id="searchUser" class="form-control" placeholder="Github User Name">
+          <br>
+          <div id="profile"></div> <!-- End of profile div -->          
+       </div> <!-- End of search card card body -->
     </div> <!-- End of searchContainer -->
+
+    <footer class="mt-5 p-3 text-center bg-light">
+       <h3>Github Finder &copy;</h3>
+    </footer> <!-- End of footer -->
 
 <!-- Bootstrap scripts -->    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
