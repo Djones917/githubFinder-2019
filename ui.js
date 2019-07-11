@@ -2,7 +2,7 @@ class UI {
     constructor() {
         this.profile = document.getElementById('profile');
     }
-    // Do not forget the back tick!!!
+    // Show Profile in UI - Do not forget the back tick for string template on the innerHTML!!!
     showProfile(user) {
       this.profile.innerHTML = `<div class="card card-body md-3">
                                   <div class="row">
@@ -30,11 +30,8 @@ class UI {
                                 <h3 class="page-heading mb-3">Lastest Repos</h3>
                                 <div id="repos"></div>
                                 `;
-    }
-
-    clearProfile() {
-      this.profile.innerHTML = '';
-    }
+    } 
+   
 }
 
 
